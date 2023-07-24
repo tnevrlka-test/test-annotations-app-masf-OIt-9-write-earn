@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-annotations-ansx
     spec:
       containers:
-      - image: hello-world:latest
+      - image: quay.io/tnevrlka-test/build-e2e-izlh-tenant/test-annotations-app-masf/test-annotations-ansx@sha256:331a8708f4b9f0519ef96805af751cbecb86d08762c4d1a774d129617ddbf0e4
         name: my-nginx
         ports:
         - containerPort: 8080
